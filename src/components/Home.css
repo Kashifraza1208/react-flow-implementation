@@ -1,0 +1,63 @@
+.ModalContainer {
+  width: 25vw;
+  height: 40vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  place-items: center;
+  margin: 50px auto;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.ModalBox {
+  background-color: rgba(255, 255, 255, 0.438);
+  width: 25vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.modalForm {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  /* height: 70%; */
+  transition: all 0.5s;
+}
+
+.modalForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.modalForm > div > textarea {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 500 1vmax Arial;
+  outline: none;
+}
+
+.react-flow__node-input,
+.react-flow__node-output {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Make the node circular */
+  background-color: #007bff; /* Set the background color */
+}
